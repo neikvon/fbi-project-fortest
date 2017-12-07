@@ -1,0 +1,51 @@
+{
+  "name": "fbi-project-fortest",
+  "version": "1.0.0",
+  "description": "This repo is for test purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "publish-patch": "npm version patch && git push && git push --tags && npm publish",
+    "publish-minor": "npm version minor && git push && git push --tags && npm publish",
+    "publish-major": "npm version major && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neikvon/fbi-project-fortest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neikvon/fbi-project-fortest/issues"
+  },
+  "homepage": "https://github.com/neikvon/fbi-project-fortest#readme",
+  "devDependencies": {
+    "is-positive": "^3.1.0"
+  },
+  "dependencies": {
+    "is-number": "^4.0.0"
+  },
+  "fbi": {
+    "template": {
+      "name": "fbi-project-fortest"
+    },
+    "tasks": {
+      "task-basic": {
+        "alias": "tb",
+        "desc": "task-basic."
+      },
+      "task-promise-1": {
+        "alias": "tp1",
+        "desc": "task-promise-1."
+      },
+      "task-promise-2": {
+        "alias": "tp2",
+        "desc": "task-promise-2."
+      },
+      "task-promise-3": {
+        "alias": "tp3",
+        "desc": "task-promise-3."
+      }
+    }
+  }
+}

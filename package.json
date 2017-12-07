@@ -1,6 +1,6 @@
 {
   "name": "fbi-project-fortest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This repo is for test purposes only.",
   "main": "index.js",
   "scripts": {

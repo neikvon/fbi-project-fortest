@@ -49,11 +49,6 @@
     }
   },
   "cz-fbi": {
-    "types": [{
-      "emoji": "✨",
-      "description": "Introducing new features",
-      "name": "feat"
-    }],
     "scopes": ["page", "api"]
   }
 }

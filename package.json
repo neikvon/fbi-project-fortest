@@ -1,6 +1,6 @@
 {
   "name": "fbi-project-fortest",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "This repo is for test purposes only.",
   "main": "index.js",
   "scripts": {
@@ -49,6 +49,9 @@
     }
   },
   "cz-fbi": {
-    "scopes": ["page", "api"]
+    "scopes": [
+      "page",
+      "api"
+    ]
   }
 }
